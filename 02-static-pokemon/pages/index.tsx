@@ -1,12 +1,11 @@
-
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import { Button } from '@nextui-org/react'
 
 export const HomePage = () => {
   return (
     <>
-      <h1>Hola Mundo</h1>
+      <Button color='gradient'>
+        Hola Mundo
+      </Button>
     </>
   )
 }
